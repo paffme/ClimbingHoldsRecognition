@@ -1,0 +1,22 @@
+{
+  "images": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "ClimbingHold",
+      "supercategory": "",
+      "color": "#ff0000",
+      "metadata": {},
+      "creator": "DamSaulGoodMan"
+    },
+    {
+      "id": 5,
+      "name": "ClimbingVolume",
+      "supercategory": "",
+      "color": "#64ad1b",
+      "metadata": {},
+      "creator": "DamSaulGoodMan"
+    }
+  ],
+  "annotations": []
+}
