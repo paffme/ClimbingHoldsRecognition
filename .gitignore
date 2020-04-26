@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# File too big
+/mask_rcnn_init_weight.h5
+/~mrcnn/

@@ -11,8 +11,8 @@ from pycocotools import mask as maskUtils
 import zipfile
 import urllib.request
 
-from mrcnn.config import Config
-from mrcnn import model as modellib, utils
+from mrcnn_v2.config import Config
+from mrcnn_v2 import model as modellib, utils
 
 
 ############################################################
