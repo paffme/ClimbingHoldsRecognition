@@ -25,7 +25,7 @@ ROOT_DIR = os.path.abspath("../")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
-from mrcnn_v2 import utils
+from mrcnn import utils
 
 
 ############################################################
@@ -89,7 +89,7 @@ def display_instances(image, boxes, masks, class_ids, class_names,
     boxes: [num_instance, (y1, x1, y2, x2, class_id)] in image coordinates.
     masks: [height, width, num_instances]
     class_ids: [num_instances]
-    class_names: list of class names of the datasets
+    class_names: list of class names of the dataset
     scores: (optional) confidence scores for each box
     title: (optional) Figure title
     show_mask, show_bbox: To show masks and bounding boxes or not
@@ -324,7 +324,7 @@ def plot_overlaps(gt_class_ids, pred_class_ids, pred_scores,
     pred_class_id: [N] int. Predicted class IDs
     pred_scores: [N] float. The probability scores of predicted classes
     overlaps: [pred_boxes, gt_boxes] IoU overlaps of predictions and GT boxes.
-    class_names: list of all class names in the datasets
+    class_names: list of all class names in the dataset
     threshold: Float. The prediction probability required to predict a class
     """
     gt_class_ids = gt_class_ids[gt_class_ids != 0]

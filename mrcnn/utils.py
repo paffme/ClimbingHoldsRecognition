@@ -23,7 +23,6 @@ import shutil
 import warnings
 from distutils.version import LooseVersion
 
-
 # URL from which to download the latest COCO trained weights
 COCO_MODEL_URL = "https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5"
 
@@ -238,8 +237,8 @@ def box_refinement(box, gt_box):
 ############################################################
 
 class Dataset(object):
-    """The base class for datasets classes.
-    To use it, create a new class that adds functions specific to the datasets
+    """The base class for dataset classes.
+    To use it, create a new class that adds functions specific to the dataset
     you want to use. For example:
 
     class CatsAndDogsDataset(Dataset):
@@ -287,8 +286,8 @@ class Dataset(object):
         """Return a link to the image in its source Website or details about
         the image that help looking it up or debugging it.
 
-        Override for your datasets, but pass to this function
-        if you encounter images not in your datasets.
+        Override for your dataset, but pass to this function
+        if you encounter images not in your dataset.
         """
         return ""
 
@@ -322,7 +321,7 @@ class Dataset(object):
         # Loop over datasets
         for source in self.sources:
             self.source_class_ids[source] = []
-            # Find classes that belong to this datasets
+            # Find classes that belong to this dataset
             for i, info in enumerate(self.class_info):
                 # Include BG class in all datasets
                 if i == 0 or source == info['source']:
@@ -332,12 +331,12 @@ class Dataset(object):
         """Takes a source class ID and returns the int class ID assigned to it.
 
         For example:
-        datasets.map_source_class_id("coco.12") -> 23
+        dataset.map_source_class_id("coco.12") -> 23
         """
         return self.class_from_source_map[source_class_id]
 
     def get_source_class_id(self, class_id, source):
-        """Map an internal class ID to the corresponding class ID in the source datasets."""
+        """Map an internal class ID to the corresponding class ID in the source dataset."""
         info = self.class_info[class_id]
         assert info['source'] == source
         return info['id']
@@ -378,7 +377,7 @@ class Dataset(object):
                 a binary mask per instance.
             class_ids: a 1D array of class IDs of the instance masks.
         """
-        # Override this function to load a mask from your datasets.
+        # Override this function to load a mask from your dataset.
         # Otherwise, it returns an empty mask.
         logging.warning("You are using the default load_mask(), maybe you need to define your own one.")
         mask = np.empty([0, 0, 0])

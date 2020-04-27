@@ -27,8 +27,8 @@ ROOT_DIR = os.path.abspath(".")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
-from mrcnn_v2.config import Config
-from mrcnn_v2 import model as modellib, utils
+from mrcnn.config import Config
+from mrcnn import model as modellib, utils
 
 # Path to trained weights file
 TRAINED_WEIGHT_PATH = os.path.join(ROOT_DIR, "mask_rcnn_init_weight.h5")
