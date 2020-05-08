@@ -1,5 +1,4 @@
 import json
-from argparse import Namespace
 
 if __name__ == '__main__':
     import argparse
