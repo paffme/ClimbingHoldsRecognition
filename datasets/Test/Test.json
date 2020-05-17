@@ -7,16 +7,323 @@
         1,
         5
       ],
-      "path": "/datasets/Test/train/0_ClimbingWall.jpg",
+      "path": "/datasets/Test/0_ClimbingWall.jpg",
       "width": 640,
       "height": 640,
       "file_name": "0_ClimbingWall.jpg",
       "annotated": true,
       "annotating": [],
+      "num_annotations": 4,
+      "metadata": {},
+      "milliseconds": 939788,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 6,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 3807,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 138504,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 8332,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 88886,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 695547,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 4706,
+          "tools_used": []
+        }
+      ],
+      "regenerate_thumbnail": false,
+      "is_modified": false
+    },
+    {
+      "id": 36475,
+      "dataset_id": 9,
+      "category_ids": [
+        1,
+        5
+      ],
+      "path": "/datasets/Test/10_ClimbingWall.jpg",
+      "width": 720,
+      "height": 720,
+      "file_name": "10_ClimbingWall.jpg",
+      "annotated": true,
+      "annotating": [],
+      "num_annotations": 2,
+      "metadata": {},
+      "milliseconds": 27540,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 6,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 8,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 0,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 2322,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 284,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 2323,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 1458,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 2342,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 1564,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 693,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 722,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 662,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 13481,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 471,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 1204,
+          "tools_used": []
+        }
+      ],
+      "regenerate_thumbnail": false,
+      "is_modified": false
+    },
+    {
+      "id": 36476,
+      "dataset_id": 9,
+      "category_ids": [
+        1,
+        5
+      ],
+      "path": "/datasets/Test/1_ClimbingWall.jpg",
+      "width": 640,
+      "height": 640,
+      "file_name": "1_ClimbingWall.jpg",
+      "annotated": true,
+      "annotating": [],
       "num_annotations": 3,
       "metadata": {},
-      "milliseconds": 0,
-      "events": [],
+      "milliseconds": 135088,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 5,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 6,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 7,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 29611,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 19633,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 32386,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 31696,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 1913,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 2957,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 14160,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 1816,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 898,
+          "tools_used": []
+        }
+      ],
+      "regenerate_thumbnail": false,
+      "is_modified": false
+    },
+    {
+      "id": 36477,
+      "dataset_id": 9,
+      "category_ids": [
+        1,
+        5
+      ],
+      "path": "/datasets/Test/8_ClimbingWall.jpg",
+      "width": 720,
+      "height": 720,
+      "file_name": "10_ClimbingWall.jpg",
+      "annotated": true,
+      "annotating": [],
+      "num_annotations": 2,
+      "metadata": {},
+      "milliseconds": 11925,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 11925,
+          "tools_used": []
+        }
+      ],
+      "regenerate_thumbnail": false,
+      "is_modified": false
+    },
+    {
+      "id": 36480,
+      "dataset_id": 9,
+      "category_ids": [
+        1,
+        5
+      ],
+      "path": "/datasets/Test/8_ClimbingWall (3rd copy).jpg",
+      "width": 720,
+      "height": 720,
+      "file_name": "8_ClimbingWall (3rd copy).jpg",
+      "annotated": true,
+      "annotating": [],
+      "num_annotations": 2,
+      "metadata": {},
+      "milliseconds": 21727,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 18432,
+          "tools_used": []
+        },
+        {
+          "_cls": "SessionEvent",
+          "user": "DamSaulGoodMan",
+          "milliseconds": 3295,
+          "tools_used": []
+        }
+      ],
       "regenerate_thumbnail": false,
       "is_modified": false
     }
@@ -71,7 +378,7 @@
       "height": 640,
       "color": "#bf7b00",
       "metadata": {},
-      "milliseconds": 76515,
+      "milliseconds": 79194,
       "events": [
         {
           "_cls": "SessionEvent",
@@ -96,65 +403,16 @@
             "Select",
             "Eraser"
           ]
-        }
-      ]
-    },
-    {
-      "id": 100,
-      "image_id": 36474,
-      "category_id": 1,
-      "dataset_id": 9,
-      "segmentation": [
-        [
-          212,
-          119.3,
-          216.2,
-          135.8,
-          182.7,
-          137.1,
-          185,
-          119.8
-        ],
-        [
-          194,
-          230.5,
-          200.8,
-          250.6,
-          189.6,
-          240.6,
-          188.4,
-          235.8
-        ]
-      ],
-      "area": 598,
-      "bbox": [
-        183,
-        119,
-        33,
-        130
-      ],
-      "iscrowd": false,
-      "isbbox": false,
-      "creator": "DamSaulGoodMan",
-      "width": 640,
-      "height": 640,
-      "color": "#611aad",
-      "metadata": {},
-      "milliseconds": 50936,
-      "events": [
+        },
         {
           "_cls": "SessionEvent",
           "created_at": {
-            "$date": 1588894552401
+            "$date": 1588902801427
           },
           "user": "DamSaulGoodMan",
-          "milliseconds": 50936,
+          "milliseconds": 893,
           "tools_used": [
-            "Eraser",
-            "Polygon",
-            "Eraser",
-            "Polygon",
-            "Eraser"
+            "Select"
           ]
         }
       ]
@@ -190,7 +448,7 @@
       "height": 640,
       "color": "#d543a4",
       "metadata": {},
-      "milliseconds": 24136,
+      "milliseconds": 25188,
       "events": [
         {
           "_cls": "SessionEvent",
@@ -202,6 +460,854 @@
           "tools_used": [
             "Eraser",
             "Polygon"
+          ]
+        },
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1588902800901
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 526,
+          "tools_used": [
+            "Select"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "image_id": 36474,
+      "category_id": 1,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          212,
+          119.3,
+          216.2,
+          135.8,
+          182.7,
+          137.1,
+          185,
+          119.8
+        ]
+      ],
+      "area": 507,
+      "bbox": [
+        183,
+        119,
+        33,
+        18
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "system",
+      "width": 640,
+      "height": 640,
+      "color": "#611aad",
+      "metadata": {},
+      "milliseconds": 6698,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1588902626098
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 516,
+          "tools_used": [
+            "Select"
+          ]
+        },
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1588902771265
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 1285,
+          "tools_used": [
+            "Polygon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "image_id": 36474,
+      "category_id": 1,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          194,
+          230.5,
+          200.8,
+          250.6,
+          189.6,
+          240.6,
+          188.4,
+          235.8
+        ]
+      ],
+      "area": 91,
+      "bbox": [
+        189,
+        231,
+        11,
+        18
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "system",
+      "width": 640,
+      "height": 640,
+      "color": "#611aad",
+      "metadata": {},
+      "milliseconds": 387188,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1588902626614
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 76564,
+          "tools_used": [
+            "Select"
+          ]
+        },
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1588902772551
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 1456,
+          "tools_used": [
+            "Polygon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2525,
+      "image_id": 36475,
+      "category_id": 1,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          363.8,
+          171.3,
+          366.6,
+          156.7,
+          374.1,
+          145.6,
+          385.2,
+          138.1,
+          398.8,
+          135.4,
+          412.4,
+          138.1,
+          423.6,
+          145.6,
+          431.1,
+          156.7,
+          433.8,
+          170.4,
+          431.1,
+          184.9,
+          423.6,
+          196,
+          412.4,
+          203.5,
+          398.8,
+          206.3,
+          385.2,
+          203.5,
+          374.1,
+          196,
+          366.6,
+          184.9
+        ]
+      ],
+      "area": 3814,
+      "bbox": [
+        364,
+        135,
+        70,
+        71
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "DamSaulGoodMan",
+      "width": 720,
+      "height": 720,
+      "color": "#6bb0eb",
+      "metadata": {},
+      "milliseconds": 3230,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1589738784459
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 3230,
+          "tools_used": [
+            "Brush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2526,
+      "image_id": 36475,
+      "category_id": 5,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          299.5,
+          302.6,
+          302.3,
+          289,
+          309.8,
+          277.9,
+          320.9,
+          270.4,
+          334.5,
+          267.6,
+          348.2,
+          270.4,
+          359.3,
+          277.9,
+          366.8,
+          289,
+          369.5,
+          302.6,
+          366.8,
+          316.2,
+          359.3,
+          327.4,
+          348.2,
+          334.9,
+          334.5,
+          337.6,
+          320.9,
+          334.9,
+          309.8,
+          327.4,
+          302.3,
+          316.2
+        ],
+        [
+          268.3,
+          428.4,
+          271.1,
+          414.8,
+          278.6,
+          403.7,
+          289.7,
+          396.2,
+          303.3,
+          393.4,
+          316.9,
+          396.2,
+          328.1,
+          403.7,
+          335.6,
+          414.8,
+          338.3,
+          428.4,
+          335.6,
+          442,
+          328.1,
+          453.2,
+          316.9,
+          460.7,
+          303.3,
+          463.4,
+          289.7,
+          460.7,
+          278.6,
+          453.2,
+          271.1,
+          442
+        ],
+        [
+          299.5,
+          520.3,
+          302.3,
+          506.6,
+          309.8,
+          495.5,
+          320.9,
+          488,
+          334.5,
+          485.3,
+          343.2,
+          486.3,
+          359.3,
+          494.7,
+          365.7,
+          502.1,
+          369.9,
+          511.1,
+          371.4,
+          521.2,
+          368.6,
+          534.8,
+          361.1,
+          545.9,
+          350,
+          553.4,
+          335.5,
+          556.2,
+          321.5,
+          553.3,
+          310.3,
+          545.5,
+          302.4,
+          534.2
+        ]
+      ],
+      "area": 11395,
+      "bbox": [
+        268,
+        268,
+        103,
+        288
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "DamSaulGoodMan",
+      "width": 720,
+      "height": 720,
+      "color": "#1423c2",
+      "metadata": {},
+      "milliseconds": 7784,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1589738787689
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 7784,
+          "tools_used": [
+            "Brush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2522,
+      "image_id": 36476,
+      "category_id": 1,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          172.6,
+          187.3,
+          175.3,
+          173.7,
+          182.8,
+          162.6,
+          193.9,
+          155.1,
+          207.6,
+          152.3,
+          221.2,
+          155.1,
+          232.3,
+          162.6,
+          239.8,
+          173.7,
+          242.6,
+          187.3,
+          239.8,
+          201,
+          232.3,
+          212.1,
+          221.2,
+          219.6,
+          207.6,
+          222.3,
+          193.9,
+          219.6,
+          182.8,
+          212.1,
+          175.3,
+          201
+        ]
+      ],
+      "area": 3753,
+      "bbox": [
+        173,
+        152,
+        70,
+        70
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "DamSaulGoodMan",
+      "width": 640,
+      "height": 640,
+      "color": "#d550f5",
+      "metadata": {},
+      "milliseconds": 4098,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1589738770369
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 4098,
+          "tools_used": [
+            "Brush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2523,
+      "image_id": 36476,
+      "category_id": 1,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          303.2,
+          143.3,
+          305.9,
+          129.6,
+          313.4,
+          118.5,
+          324.6,
+          111,
+          338.2,
+          108.3,
+          351.8,
+          111,
+          362.9,
+          118.5,
+          370.4,
+          129.6,
+          373.2,
+          143.3,
+          370.4,
+          156.9,
+          362.9,
+          168,
+          351.8,
+          175.5,
+          338.2,
+          178.3,
+          324.6,
+          175.5,
+          313.4,
+          168,
+          305.9,
+          156.9
+        ]
+      ],
+      "area": 3753,
+      "bbox": [
+        303,
+        108,
+        70,
+        70
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "DamSaulGoodMan",
+      "width": 640,
+      "height": 640,
+      "color": "#5d31d9",
+      "metadata": {},
+      "milliseconds": 2894,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1589738774467
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 2894,
+          "tools_used": [
+            "Brush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2524,
+      "image_id": 36476,
+      "category_id": 5,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          320.9,
+          295.9,
+          318.2,
+          309.5,
+          310.7,
+          320.7,
+          299.6,
+          328.2,
+          285.9,
+          330.9,
+          272,
+          328.1,
+          260.8,
+          320.3,
+          254.6,
+          312.3,
+          250.9,
+          302.7,
+          250.1,
+          295.1,
+          252.9,
+          281.5,
+          260.4,
+          270.4,
+          271.5,
+          262.9,
+          285.1,
+          260.1,
+          299,
+          263,
+          310.3,
+          270.8,
+          318.1,
+          282
+        ]
+      ],
+      "area": 3841,
+      "bbox": [
+        250,
+        260,
+        71,
+        71
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "DamSaulGoodMan",
+      "width": 640,
+      "height": 640,
+      "color": "#6cd8e8",
+      "metadata": {},
+      "milliseconds": 4621,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1589738777361
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 4621,
+          "tools_used": [
+            "Brush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2527,
+      "image_id": 36477,
+      "category_id": 1,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          13.9,
+          160.3,
+          16.7,
+          146.6,
+          24.2,
+          135.5,
+          35.3,
+          128,
+          48.9,
+          125.3,
+          62.5,
+          128,
+          73.7,
+          135.5,
+          81.2,
+          146.6,
+          83.9,
+          160.3,
+          81.2,
+          173.9,
+          73.7,
+          185,
+          62.5,
+          192.5,
+          48.9,
+          195.3,
+          35.3,
+          192.5,
+          24.2,
+          185,
+          16.7,
+          173.9
+        ]
+      ],
+      "area": 3750,
+      "bbox": [
+        14,
+        125,
+        70,
+        70
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "DamSaulGoodMan",
+      "width": 720,
+      "height": 720,
+      "color": "#1ec8eb",
+      "metadata": {},
+      "milliseconds": 3745,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1589738812962
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 3745,
+          "tools_used": [
+            "Brush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2528,
+      "image_id": 36477,
+      "category_id": 5,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          326.3,
+          174.8,
+          339.9,
+          177.6,
+          351,
+          185.1,
+          358.5,
+          196.2,
+          361.3,
+          209.8,
+          358.5,
+          223.5,
+          351,
+          234.6,
+          339.9,
+          242.1,
+          325.4,
+          244.8,
+          311.7,
+          242.1,
+          300.6,
+          234.6,
+          293.1,
+          223.5,
+          290.4,
+          209.8,
+          293.1,
+          196.2,
+          300.6,
+          185.1,
+          311.7,
+          177.6,
+          325.8,
+          174.8
+        ],
+        [
+          318.8,
+          332.9,
+          321.6,
+          319.3,
+          329.1,
+          308.2,
+          340.2,
+          300.7,
+          353.8,
+          297.9,
+          367.4,
+          300.7,
+          378.6,
+          308.2,
+          386.1,
+          319.3,
+          388.8,
+          332.9,
+          386.1,
+          346.5,
+          378.6,
+          357.7,
+          367.4,
+          365.2,
+          353.8,
+          367.9,
+          340.2,
+          365.2,
+          329.1,
+          357.7,
+          321.6,
+          346.5
+        ]
+      ],
+      "area": 7567,
+      "bbox": [
+        290,
+        175,
+        99,
+        193
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "DamSaulGoodMan",
+      "width": 720,
+      "height": 720,
+      "color": "#e9120a",
+      "metadata": {},
+      "milliseconds": 3531,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1589738818473
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 3531,
+          "tools_used": [
+            "Brush"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2520,
+      "image_id": 36480,
+      "category_id": 1,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          93,
+          152.9,
+          261.1,
+          156.6,
+          274.8,
+          255.8,
+          262.9,
+          244.7,
+          229.8,
+          224.5,
+          132.5,
+          181.4,
+          99.4,
+          161.2,
+          94.8,
+          156.6
+        ]
+      ],
+      "area": 8329,
+      "bbox": [
+        93,
+        153,
+        182,
+        102
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "DamSaulGoodMan",
+      "width": 720,
+      "height": 720,
+      "color": "#de8b65",
+      "metadata": {},
+      "milliseconds": 5587,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1589738752298
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 5587,
+          "tools_used": [
+            "Polygon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2521,
+      "image_id": 36480,
+      "category_id": 5,
+      "dataset_id": 9,
+      "segmentation": [
+        [
+          355.6,
+          148.3,
+          358.3,
+          134.7,
+          365.8,
+          123.6,
+          376.9,
+          116.1,
+          390.6,
+          113.3,
+          404.2,
+          116.1,
+          415.3,
+          123.6,
+          422.8,
+          134.7,
+          425.6,
+          148.3,
+          422.8,
+          161.9,
+          415.3,
+          173.1,
+          404.2,
+          180.6,
+          390.6,
+          183.3,
+          376.9,
+          180.6,
+          365.8,
+          173.1,
+          358.3,
+          161.9
+        ]
+      ],
+      "area": 3753,
+      "bbox": [
+        356,
+        113,
+        70,
+        70
+      ],
+      "iscrowd": false,
+      "isbbox": false,
+      "creator": "DamSaulGoodMan",
+      "width": 720,
+      "height": 720,
+      "color": "#972442",
+      "metadata": {},
+      "milliseconds": 6863,
+      "events": [
+        {
+          "_cls": "SessionEvent",
+          "created_at": {
+            "$date": 1589738760971
+          },
+          "user": "DamSaulGoodMan",
+          "milliseconds": 6863,
+          "tools_used": [
+            "Polygon",
+            "Brush"
           ]
         }
       ]

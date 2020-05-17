@@ -1,4 +1,5 @@
 import json
+from random import randint
 
 if __name__ == '__main__':
     import argparse
@@ -19,12 +20,17 @@ if __name__ == '__main__':
         coco_val_files = []
         val_img_id = []
 
+        nb_images = len(coco_file['images'])
+        nb_images_train = nb_images * 0.8
+
+        # Split with ratio : {train: 80%, val: 20%}
         for img in coco_file['images']:
-            if str(img['path']).find("/train/") != -1:
+            img['events'] = []
+            if (randint(0, nb_images - 1) < nb_images_train and len(coco_train_files) < nb_images_train) \
+                    or len(coco_val_files) >= (nb_images * 0.2):
                 coco_train_files.append(img)
                 train_img_id.append(img["id"])
-
-            if str(img['path']).find("/val/") != -1:
+            else:
                 coco_val_files.append(img)
                 val_img_id.append(img["id"])
 
@@ -32,6 +38,7 @@ if __name__ == '__main__':
         coco_val_anns = []
 
         for ann in coco_file['annotations']:
+            ann['events'] = []
             if ann['image_id'] in train_img_id:
                 coco_train_anns.append(ann)
             elif ann['image_id'] in val_img_id:
