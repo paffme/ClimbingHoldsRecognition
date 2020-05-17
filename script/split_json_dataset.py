@@ -1,5 +1,6 @@
 import json
 from random import randint
+import os
 
 if __name__ == '__main__':
     import argparse
@@ -20,6 +21,8 @@ if __name__ == '__main__':
         coco_val_files = []
         val_img_id = []
 
+        path_dataset = os.path.abspath(args.coco_file[:str(args.coco_file).rindex('/') + 1])
+
         nb_images = len(coco_file['images'])
         nb_images_train = nb_images * 0.8
 
@@ -30,9 +33,11 @@ if __name__ == '__main__':
                     or len(coco_val_files) >= (nb_images * 0.2):
                 coco_train_files.append(img)
                 train_img_id.append(img["id"])
+                os.symlink(path_dataset + "/" + img["file_name"], path_dataset + "/train/" + img["file_name"])
             else:
                 coco_val_files.append(img)
                 val_img_id.append(img["id"])
+                os.symlink(path_dataset + "/" + img["file_name"], path_dataset + "/val/" + img["file_name"])
 
         coco_train_anns = []
         coco_val_anns = []
