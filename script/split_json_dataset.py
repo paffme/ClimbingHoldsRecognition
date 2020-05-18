@@ -28,7 +28,9 @@ if __name__ == '__main__':
 
         # Split with ratio : {train: 80%, val: 20%}
         for img in coco_file['images']:
+
             img['events'] = []
+
             if (randint(0, nb_images - 1) < nb_images_train and len(coco_train_files) < nb_images_train) \
                     or len(coco_val_files) >= (nb_images * 0.2):
                 coco_train_files.append(img)
