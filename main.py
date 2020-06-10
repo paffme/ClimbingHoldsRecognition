@@ -64,6 +64,8 @@ class ClimbingHoldConfig(Config):
     # Skip detections with < 90% confidence
     DETECTION_MIN_CONFIDENCE = 0.9
 
+    EPOCHS = 10
+
 
 def train(model):
     """Train the model."""
@@ -84,7 +86,7 @@ def train(model):
     print("Training network heads")
     model.train(dataset_train, dataset_val,
                 learning_rate=config.LEARNING_RATE,
-                epochs=30,
+                epochs=config.EPOCHS,
                 layers='heads')
 
 
