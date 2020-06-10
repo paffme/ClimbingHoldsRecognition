@@ -64,7 +64,7 @@ class ClimbingHoldConfig(Config):
     # Skip detections with < 90% confidence
     DETECTION_MIN_CONFIDENCE = 0.9
 
-    EPOCHS = 10
+    EPOCHS = 30
 
 
 def train(model):
