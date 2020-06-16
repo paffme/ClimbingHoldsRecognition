@@ -12,12 +12,14 @@ Usage: import the module (see Jupyter notebooks for examples), or run from
     python3 main.py train --datasets=/path/to/dataset/ --weights=weights
     # Continue training a model that you had trained earlier
     python3 main.py train --datasets=/path/to/dataset/ --weights=/path/to/weights.h5
+
+    # Splash color on detected climbing hold
+    python main.py splash --weights=weight_to_use.h5 --image=image_to_splash.jpg
 """
 
-import os
-import sys
-import datetime
-import numpy as np
+import math
+import json
+import cv2
 import skimage
 
 from coco_dataset import *
@@ -29,6 +31,7 @@ ROOT_DIR = os.path.abspath(".")
 sys.path.append(ROOT_DIR)  # To find local version of the library
 from mrcnn.config import Config
 from mrcnn import model as modellib, utils
+import mrcnn.visualize as visual
 
 # Path to trained weights file
 TRAINED_WEIGHT_PATH = os.path.join(ROOT_DIR, "mask_rcnn_init_weight.h5")
@@ -120,11 +123,17 @@ def detect_and_color_splash(model, image_path=None, video_path=None):
         image = skimage.io.imread(args.image)
         # Detect objects
         r = model.detect([image], verbose=1)[0]
+        print("Shape : " + str(np.shape(r['masks'])))
         # Color splash
         splash = color_splash(image, r['masks'])
         # Save output
         file_name = "splash_{:%Y%m%dT%H%M%S}.png".format(datetime.datetime.now())
         skimage.io.imsave(file_name, splash)
+
+        polygons_file_name = "splash_{:%Y%m%dT%H%M%S}.json".format(datetime.datetime.now())
+        with open(polygons_file_name, 'w') as outfile:
+            outfile.write(json.dumps(r['masks'].tolist(), indent=4))
+
     elif video_path:
         import cv2
         # Video capture
