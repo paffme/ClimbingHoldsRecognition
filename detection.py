@@ -66,7 +66,7 @@ model = modellib.MaskRCNN(mode="inference", model_dir=LOGS_DIR, config=config)
 # Load weights trained on MS-COCO
 model.load_weights(args.weights, by_name=True)
 
-class_names = ['ClimbingVolume', 'ClimbingHold']
+class_names = ['Background', 'ClimbingHold', 'ClimbingVolume']
 
 image = skimage.io.imread(args.image)
 
@@ -75,5 +75,7 @@ results = model.detect([image], verbose=1)
 
 # Visualize results
 r = results[0]
+
+# print(r['masks'])
 visualize.display_instances(image, r['rois'], r['masks'], r['class_ids'],
                             class_names, r['scores'])
