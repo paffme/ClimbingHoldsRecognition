@@ -1,4 +1,6 @@
 import argparse
+from json import JSONEncoder
+import json
 import os
 import sys
 import random
@@ -23,6 +25,13 @@ from mrcnn.config import Config
 LOGS_DIR = os.path.join(ROOT_DIR, "logs/default")
 
 
+class NumpyArrayEncoder(JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return JSONEncoder.default(self, obj)
+
+
 class InferenceConfig(Config):
     """Configuration for training on the toy  datasets.
     Derives from the base Config class and overrides some values.
@@ -42,21 +51,30 @@ class InferenceConfig(Config):
     # STEPS_PER_EPOCH = 100
     STEPS_PER_EPOCH = 100
 
-    # Skip detections with < 90% confidence
-    DETECTION_MIN_CONFIDENCE = 0.2
+    # Skip detections with < 80% confidence
+    DETECTION_MIN_CONFIDENCE = 0.8
 
     EPOCHS = 30
 
 
 parser = argparse.ArgumentParser(
     description='Train Mask R-CNN to detect Climbing Holds.')
+parser.add_argument("command",
+                    metavar="<command>",
+                    help="'visualize' or 'export' or 'visualize_and_export'")
 parser.add_argument('--weights', required=True,
                     metavar="/path/to/weights.h5",
                     help="Path to weights .h5 file or 'coco'")
 parser.add_argument('--image', required=True,
                     metavar="path or URL to image",
                     help='Image to apply the color splash effect on')
+parser.add_argument('--file_save', required=False,
+                    metavar="path or URL to image",
+                    help='Image to apply the color splash effect on')
 args = parser.parse_args()
+
+if args.command == "export" or args.command == "visualize_and_export":
+    assert args.file_save is not None
 
 config = InferenceConfig()
 config.display()
@@ -72,10 +90,15 @@ image = skimage.io.imread(args.image)
 
 # Run detection
 results = model.detect([image], verbose=1)
-
-# Visualize results
 r = results[0]
 
-# print(r['masks'])
-visualize.display_instances(image, r['rois'], r['masks'], r['class_ids'],
-                            class_names, r['scores'])
+# Visualize results
+if args.command == "visualize" or args.command == "visualize_and_export":
+    visualize.display_instances(image, r['rois'], r['masks'], r['class_ids'],
+                                class_names, r['scores'])
+
+# Export results
+if args.command == "export" or args.command == "visualize_and_export":
+    boundingBoxJson = json.dumps(r['rois'], cls=NumpyArrayEncoder)
+    with open(args.file_save, 'w') as fs:
+        fs.write(boundingBoxJson)

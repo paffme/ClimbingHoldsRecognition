@@ -54,6 +54,15 @@ python main.py train --dataset=./datasets/paffme --weights=trained --logs=./logs
 ```
 '***--weights***' can be '***.h5***' file (from previous train)
 ### Detection
+Visualise results
 ```
-python detection.py --weights=./path/to/weight.h5 --image=./path/to/img.jpg
+python detection.py visualize --weights=./path/to/weight.h5 --image=./path/to/img.jpg
+```
+Export results (just bounding box currently)
+```
+python detection.py export --weights=./path/to/weight.h5 --image=./path/to/img.jpg --file_save=./path/to/export/file.json
+```
+Both of previous functionality
+```
+python detection.py visualize_and_export --weights=./path/to/weight.h5 --image=./path/to/img.jpg --file_save=./path/to/export/file.json
 ```
